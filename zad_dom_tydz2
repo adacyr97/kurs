@@ -1,0 +1,41 @@
+from collections import defaultdict
+from email.policy import default
+import math
+from typing import Counter, DefaultDict
+
+
+change=('drzewo', 'chmury', 'piasek')
+print(change)
+change=list(change)
+print(change)
+change.insert(3, 'woda')
+print(change)
+
+a=5
+b=9
+przekatna=(math.sqrt(a**2+b**2))
+print(przekatna)
+
+dictionary={'name':'Ada','age':27}
+print(dictionary)
+dictionary['city']='Gdansk'
+dictionary['car']='honda'
+print(dictionary)
+dictionary['age']=30
+print(dictionary)
+del dictionary['car']
+dictionary['key']='car'
+dictionary['value']='honda'
+print(dictionary)
+print(len(dictionary))
+
+animals=Counter({'dogs':3,'cats':5,'hamsters':7,'turtles':2,'mouses':3})
+numberdog=animals['dogs']
+numbercat=animals['cats']
+numberhamster=animals['hamsters']
+numberturtle=animals['turtles']
+numbermouse=animals['mouses']
+print(numberdog)
+
+"""defaultdict(szafki={1:'Ania',2:'Bartek',1:'Czarek',2:'Dorota'})
+print(szafki)"""
