@@ -1,0 +1,77 @@
+"""Easy mode"""
+
+temperatura=16
+if temperatura>=20:
+    print('Idziemy na plaze')
+elif temperatura>15:
+    print('Idziemy do lasu')
+else:
+    print('Idziemy do pubu')
+    
+dzien='nie wiem'
+
+"""Zadanie1"""
+
+if dzien=='poniedzialek':
+    print('Idziemy na kregle')
+elif dzien=='sroda':
+    print('Idziemy na Diune')
+elif dzien=='czwartek':
+    print('idziemy na karaoke')
+elif dzien=='wtorek':
+    print('Wbijamy na pizze i piwo do Ciebie')
+elif dzien=='piatek':
+    print('Wbijamy na pizze i piwo do Ciebie')
+elif dzien=='sobota':
+    print('Wbijamy na pizze i piwo do Ciebie')
+elif dzien=='niedziela':
+    print('Wbijamy na pizze i piwo do Ciebie')
+else: 
+    print('Marek sie nie okreslil') 
+    
+"""lub"""
+
+dzien='poniedzialek'
+
+if dzien=='poniedzialek':
+    print('Idziemy na kregle')
+elif dzien=='sroda':
+    print('Idziemy na Diune')
+elif dzien=='czwartek':
+    print('idziemy na karaoke')
+else: 
+    print('Wbijamy na pizze i piwo do Ciebie')
+
+"""Zadanie2"""
+
+promile=0
+
+while promile<3:
+    print('Lej kolejnego')
+    promile+=0.4 
+print("Osiagnales 3 promile dzis juz wystarczy")
+
+kcal=0
+
+while kcal<3500:
+    print('Zjedz cos jeszcze')
+    kcal+=500
+print('Na dzis wystarczy')
+
+"""Zadanie 3"""
+
+stare_ceny=[20, 34, 19, 48, 29, 37]
+nowe_ceny=[]
+for i in stare_ceny:
+    j=i*0.8
+    nowe_ceny.append(j)
+print(nowe_ceny)
+
+srednica=[18, 20, 24, 30, 35, 40, 50, 60, 90]
+powierzchnia=[]
+for i in srednica:
+    j=3.14*(i/2)**2
+    powierzchnia.append(j)
+print(powierzchnia)
+
+"""Zadanie4"""
